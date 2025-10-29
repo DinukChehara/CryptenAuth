@@ -1,0 +1,41 @@
+# Default configuration for CryptenAuth
+
+
+
+# Message displayed to players who need to register
+register-message: "<red>Welcome! Please register your account using /register <password> <confirm_password>.</red>"
+
+# Message displayed to players who are registered but need to log in
+login-message: "<red>Welcome back! Please log in using /login <password>.</red>"
+
+# Minimum password length
+min-password-length: 6
+
+# Session duration in minutes (how long a player stays logged in without re-entering password)
+session-duration-minutes: 30
+
+# Login Timeout Settings
+login-timeout-seconds: 60
+login-timeout-message: "<red>Time remaining: <seconds>s</red>"
+login-timeout-expired-message: "<red>Time limit expired! You have been kicked.</red>"
+
+# Limit players per IP address to prevent alting
+limit-players-per-ip:
+  enabled: true
+  max-accounts: 1
+  exceeded-message: "<red>Maximum registered accounts from your location exceeded.</red>"
+
+# Storage type: YAML, SQLITE, MYSQL
+storage-type: YAML
+
+# SQLite specific settings
+sqlite:
+  filename: "playerdata.db"
+
+# MySQL specific settings
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "cryptenauth"
+  username: "root"
+  password: "password"

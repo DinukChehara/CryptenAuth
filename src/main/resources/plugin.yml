@@ -1,0 +1,39 @@
+name: CryptenAuth
+version: '0.1.0'
+main: me.tomqnto.cryptenAuth.CryptenAuth
+api-version: '1.21'
+prefix: CryptenAuth
+authors: [ Tomqnto ]
+commands:
+  register:
+    description: Register your account on the server.
+    usage: /register <password> <confirm_password>
+    permission: cryptenauth.command.register
+  login:
+    description: Log in to your account on the server.
+    usage: /login <password>
+    permission: cryptenauth.command.login
+  cryptenauthreload:
+    description: Reloads the CryptenAuth plugin configuration.
+    usage: /cryptenauthreload
+    permission: cryptenauth.command.reload
+    aliases: [cpreload]
+  unregister:
+    description: Unregister your account from the server.
+    usage: /unregister <password>
+    permission: cryptenauth.command.unregister
+
+
+permissions:
+  cryptenauth.command.register:
+    description: Allows players to register an account.
+    default: true
+  cryptenauth.command.login:
+    description: Allows players to log in to their account.
+    default: true
+  cryptenauth.command.reload:
+    description: Allows access to reload CryptenAuth configuration.
+    default: op
+  cryptenauth.command.unregister:
+    description: Allows players to unregister their account.
+    default: true
