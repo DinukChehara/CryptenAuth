@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://your-image-url-here.com/banner.png" alt="CryptenAuth Banner">
+  <img src="https://cdn.modrinth.com/data/cached_images/bf60f6ce377bfad820b809e192d155d6e161199b.png" alt="CryptenAuth Banner">
 </p>
 
 # CryptenAuth
