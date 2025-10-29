@@ -23,7 +23,7 @@ A robust and flexible authentication solution for your Minecraft server. Crypten
 
 ## Installation
 
-1.  Download the latest version of CryptenAuth.
-2.  Place the `CryptenAuth-0.1.0.jar` file into your server's `plugins` folder.
-3.  Start or restart your server.
-4.  Configure `plugins/CryptenAuth/config.yml` to your preferences.
+1. Download the latest version of CryptenAuth from <a href="https://modrinth.com/plugin/cryptenauth">Modrinth</a>.
+2. Place the .jar file in the plugins folder
+3. Start or restart your server.
+4. Configure `plugins/CryptenAuth/config.yml` to your preferences.
